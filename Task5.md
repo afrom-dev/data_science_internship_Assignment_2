@@ -1,172 +1,75 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datascienceinternshipassignment2-kjedvkmzgxiaffs6eob3ux.streamlit.app/)
+# 📊 Task 5: Personal Loan Acceptance Prediction
 
+## 🚀 Live Demo
 
+👉 **[Click here to view Task 5 on Streamlit](https://datascienceinternshipassignment2-kjedvkmzgxiaffs6eob3ux.streamlit.app/)**
 
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "379c1073-68ec-451c-b4e9-3322dfc6018c",
-   "metadata": {},
-   "source": [
-    "# 📊 Task 5: Personal Loan Acceptance Prediction\n",
-    "\n",
-    "## 📌 Overview\n",
-    "\n",
-    "This project focuses on predicting which customers are most likely to accept a personal loan offer. By leveraging machine learning techniques, the goal is to help financial institutions identify potential customers and improve targeted marketing strategies.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🎯 Objective\n",
-    "\n",
-    "* Analyze customer data and behavior\n",
-    "* Build a classification model to predict loan acceptance\n",
-    "* Extract meaningful business insights to support decision-making\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📂 Dataset\n",
-    "\n",
-    "* **Bank Marketing Dataset** (UCI Machine Learning Repository)\n",
-    "* Contains customer demographic and financial information such as:\n",
-    "\n",
-    "  * Age\n",
-    "  * Job\n",
-    "  * Marital Status\n",
-    "  * Income\n",
-    "  * Education\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🛠️ Approach\n",
-    "\n",
-    "### 1. Data Exploration\n",
-    "\n",
-    "* Examined dataset structure using `.head()`, `.info()`, `.describe()`\n",
-    "* Identified key features influencing loan acceptance\n",
-    "\n",
-    "### 2. Data Preprocessing\n",
-    "\n",
-    "* Handled missing values\n",
-    "* Encoded categorical variables\n",
-    "* Prepared data for modeling\n",
-    "\n",
-    "### 3. Exploratory Data Analysis (EDA)\n",
-    "\n",
-    "* Visualized relationships between features\n",
-    "* Used:\n",
-    "\n",
-    "  * Histograms\n",
-    "  * Box plots\n",
-    "  * Count plots\n",
-    "\n",
-    "### 4. Model Building\n",
-    "\n",
-    "* Implemented classification models:\n",
-    "\n",
-    "  * Logistic Regression\n",
-    "  * Decision Tree\n",
-    "\n",
-    "### 5. Model Evaluation\n",
-    "\n",
-    "* Evaluated using:\n",
-    "\n",
-    "  * Accuracy Score\n",
-    "  * Confusion Matrix\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📈 Results & Insights\n",
-    "\n",
-    "* Identified customer segments more likely to accept loans\n",
-    "* Key influencing factors include:\n",
-    "\n",
-    "  * Income level\n",
-    "  * Education\n",
-    "  * Age group\n",
-    "* Model provides actionable insights for targeted marketing\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🧰 Tools & Technologies\n",
-    "\n",
-    "* Python\n",
-    "* Pandas\n",
-    "* NumPy\n",
-    "* Matplotlib\n",
-    "* Seaborn\n",
-    "* Scikit-learn\n",
-    "* Jupyter Notebook\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📁 Project Structure\n",
-    "\n",
-    "task5-loan-acceptance/\n",
-    "│\n",
-    "├── notebook.ipynb\n",
-    "├── data/\n",
-    "└── README.md\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🚀 How to Run\n",
-    "\n",
-    "1. Clone the repository\n",
-    "2. Install dependencies:\n",
-    "\n",
-    "   ```bash\n",
-    "   pip install -r requirements.txt\n",
-    "   ```\n",
-    "3. Open the notebook:\n",
-    "\n",
-    "   ```bash\n",
-    "   jupyter notebook\n",
-    "   ```\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 👤 Author\n",
-    "\n",
-    "**Awais Ahmed Memon**\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🏷️ Hashtags\n",
-    "\n",
-    "#DataScience #MachineLearning #LoanPrediction #Classification\n",
-    "#Python #EDA #ScikitLearn #Analytics #AI #InternshipProject\n",
-    "#DataAnalytics #BusinessIntelligence #GitHubProjects\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "7d1b9968-1dab-44fb-8c7a-42fa29f2ad2a",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python [conda env:base] *",
-   "language": "python",
-   "name": "conda-base-py"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+---
+
+## 📌 Overview
+
+This project focuses on predicting which customers are most likely to accept a personal loan offer. By leveraging machine learning techniques, the goal is to help financial institutions identify potential customers and improve targeted marketing strategies.
+
+---
+
+## 🎯 Objective
+
+- Analyze customer data and behavior  
+- Build a classification model to predict loan acceptance  
+- Extract meaningful business insights  
+
+---
+
+## 📂 Dataset
+
+- **Bank Marketing Dataset** (UCI ML Repository)  
+- Features include:
+  - Age  
+  - Job  
+  - Marital Status  
+  - Income  
+  - Education  
+
+---
+
+## 🛠️ Approach
+
+### 1. Data Exploration
+- Used `.head()`, `.info()`, `.describe()`
+
+### 2. Data Preprocessing
+- Handled missing values  
+- Encoded categorical variables  
+
+### 3. EDA
+- Histograms  
+- Box plots  
+- Count plots  
+
+### 4. Model Building
+- Logistic Regression  
+- Decision Tree  
+
+### 5. Evaluation
+- Accuracy Score  
+- Confusion Matrix  
+
+---
+
+## 📈 Results & Insights
+
+- Identified high-potential customers  
+- Key factors:
+  - Income  
+  - Education  
+  - Age  
+
+---
+
+## 🧰 Tools & Technologies
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook, Streamlit
+
+---
+
+## 📁 Project Structure
