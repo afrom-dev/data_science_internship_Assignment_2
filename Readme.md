@@ -68,7 +68,7 @@ Predict whether a bank customer will subscribe to a term deposit as a result of 
 ### 🧠 Skills Demonstrated
 `Classification Modeling` · `Feature Encoding` · `Model Evaluation` · `Explainable AI (SHAP)` · `Customer Behavior Analysis`
 
-📓 **Notebook:** [Open Task 1 Notebook](./Task1_Term_Deposit_Prediction.ipynb)
+📓 **Notebook:** [Open Task 1 Notebook](./Task1_Bank_Marketing.ipynb)
 
 ---
 
