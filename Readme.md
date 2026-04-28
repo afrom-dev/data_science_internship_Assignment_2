@@ -109,7 +109,7 @@ Cluster mall customers based on spending habits and annual income, then propose 
 ### 🧠 Skills Demonstrated
 `Unsupervised Learning` · `K-Means Clustering` · `PCA` · `t-SNE` · `Customer Segmentation` · `Strategy Development`
 
-📓 **Notebook:** [Open Task 2 Notebook](./Task2_Customer_Segmentation(1).ipynb)
+📓 **Notebook:** [Open Task 2 Notebook](./Task2_Customer_Segmentation.ipynb)
 
 
 ---
@@ -194,8 +194,7 @@ Build a fully interactive business intelligence dashboard to analyze sales, prof
 | Platform | Link |
 |---------|------|
 | 📧 Email | [awaisahmed93@gmail.com](mailto:awaisahmed93@gmail.com) |
-| 💼 LinkedIn | *Add your LinkedIn URL here* |
-| 🐙 GitHub | *Add your GitHub profile URL here* |
+
 
 ---
 
