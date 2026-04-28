@@ -40,7 +40,7 @@ st.markdown("""
 def load_data():
     for enc in ['latin-1', 'utf-8', 'cp1252']:
         try:
-            df = pd.read_csv("Superstore.csv", encoding=enc)
+            df = pd.read_csv("superstore.csv", encoding=enc)
             break
         except:
             continue
