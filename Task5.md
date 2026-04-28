@@ -1,74 +1,112 @@
-# 📊 Task 5: Personal Loan Acceptance Prediction
+# 📊 Task 5: Interactive Business Dashboard in Streamlit  
+### DevelopersHub Corporation | Data Science & Analytics
 
-## 🚀 Live Demo
+**Author:** Awais Ahmed Memon  
+**Email:** [awaisahmed93@gmail.com](mailto:awaisahmed93@gmail.com)  
+**Track:** Data Science & Analytics — Advanced  
+
+---
+
+## 🚀 Live Dashboard
 
 👉 **[Click here to view Task 5 on Streamlit](https://datascienceinternshipassignment2-kjedvkmzgxiaffs6eob3ux.streamlit.app/)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datascienceinternshipassignment2-kjedvkmzgxiaffs6eob3ux.streamlit.app/)
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+![Python](https://img.shields.io/badge/Python-3.11-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Pandas](https://img.shields.io/badge/Pandas-DataFrame-FF6B35?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Array-00D4FF?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-FF3CAC?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-784BA0?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/Status-✅_Completed-00E676?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
 
-This project focuses on predicting which customers are most likely to accept a personal loan offer. By leveraging machine learning techniques, the goal is to help financial institutions identify potential customers and improve targeted marketing strategies.
+This project presents an **interactive business intelligence dashboard** built using Streamlit. It allows users to explore sales performance, profit trends, and customer insights dynamically.
 
 ---
 
 ## 🎯 Objective
 
-- Analyze customer data and behavior  
-- Build a classification model to predict loan acceptance  
-- Extract meaningful business insights  
+- Analyze business sales data interactively  
+- Build a user-friendly dashboard using Streamlit  
+- Provide insights for better business decision-making  
 
 ---
 
 ## 📂 Dataset
 
-- **Bank Marketing Dataset** (UCI ML Repository)  
+**Global Superstore Dataset**
+
+- ~51,000 records  
 - Features include:
-  - Age  
-  - Job  
-  - Marital Status  
-  - Income  
-  - Education  
+  - Order Date  
+  - Region  
+  - Category & Sub-Category  
+  - Sales & Profit  
+  - Customer Name  
 
 ---
 
-## 🛠️ Approach
+## 🔍 Approach
 
-### 1. Data Exploration
-- Used `.head()`, `.info()`, `.describe()`
-
-### 2. Data Preprocessing
+### 1. Data Cleaning & Preparation
 - Handled missing values  
-- Encoded categorical variables  
+- Converted data types  
+- Parsed date columns  
 
-### 3. EDA
-- Histograms  
-- Box plots  
-- Count plots  
+### 2. Feature Engineering
+- Profit Margin (%)  
+- Monthly trends  
+- Aggregated KPIs  
 
-### 4. Model Building
-- Logistic Regression  
-- Decision Tree  
-
-### 5. Evaluation
-- Accuracy Score  
-- Confusion Matrix  
-
----
-
-## 📈 Results & Insights
-
-- Identified high-potential customers  
-- Key factors:
-  - Income  
-  - Education  
-  - Age  
+### 3. Dashboard Development (Streamlit)
+- Sidebar filters:
+  - Region  
+  - Category  
+  - Sub-Category  
+- KPI cards:
+  - Total Sales  
+  - Total Profit  
+  - Profit Margin  
+- Visualizations:
+  - 📊 Top 5 Customers (Bar Chart)  
+  - 📈 Monthly Sales Trend (Line Chart)  
+  - 🔥 Profit Heatmap  
 
 ---
 
-## 🧰 Tools & Technologies
+## 📊 Dashboard Features
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook, Streamlit
+| Feature | Description |
+|--------|------------|
+| 🗺️ Region Filter | Analyze performance by region |
+| 📦 Category Filter | Drill into product categories |
+| 💰 KPI Cards | Real-time key metrics |
+| 👤 Top Customers | Highest revenue contributors |
+| 📈 Sales Trend | Monthly performance analysis |
+
+---
+
+## 📈 Key Insights
+
+- Technology category has the highest profit margins  
+- Western region leads in total sales  
+- High discounts in Furniture reduce profitability  
+
+---
+
+## 🧠 Skills Demonstrated
+
+`Streamlit` · `Business Intelligence` · `Data Visualization` ·  
+`KPI Design` · `Interactive Dashboards` · `Data Analysis`
 
 ---
 
