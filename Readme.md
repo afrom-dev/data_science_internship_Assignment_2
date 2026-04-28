@@ -109,7 +109,8 @@ Cluster mall customers based on spending habits and annual income, then propose 
 ### 🧠 Skills Demonstrated
 `Unsupervised Learning` · `K-Means Clustering` · `PCA` · `t-SNE` · `Customer Segmentation` · `Strategy Development`
 
-📓 **Notebook:** [Open Task 2 Notebook](./Task2_Customer_Segmentation (1).ipynb)
+📓 **Notebook:** [Open Task 2 Notebook](./Task2_Customer_Segmentation(1).ipynb)
+
 
 ---
 
