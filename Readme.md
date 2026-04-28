@@ -155,7 +155,7 @@ Build a fully interactive business intelligence dashboard to analyze sales, prof
 ### 🧠 Skills Demonstrated
 `Streamlit Dashboarding` · `Business Intelligence` · `Data Storytelling` · `KPI Design` · `Interactive Filtering`
 
-📓 **App File:** [Open Streamlit App](./Task5_Business_Dashboard.py)
+📓 **App File:** [Open Streamlit App](./app.py)
 
 ---
 
